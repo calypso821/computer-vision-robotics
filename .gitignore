@@ -1,0 +1,60 @@
+# PyCharm
+.idea/
+*.iml
+*.iws
+*.ipr
+.idea_modules/
+
+# Python
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+eggs/
+*.egg-info/
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.env/
+.venv/
+.Python
+pip-log.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+pytest_cache/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Logs
+*.log
+logs/
+
+# Local development settings
+local_settings.py
+db.sqlite3
