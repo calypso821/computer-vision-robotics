@@ -33,5 +33,5 @@ def read_and_display_image(image_path):
     plt.show()
 
 # Example usage
-image_path = "resources/vaja1/umbrellas.jpg"
+image_path = "resources/umbrellas.jpg"
 read_and_display_image(image_path)
