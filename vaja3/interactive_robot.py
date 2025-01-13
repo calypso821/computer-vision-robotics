@@ -105,7 +105,7 @@ def create_robot_visualization(robot_function, robot_name, slider_params):
         show_system(ax, np.eye(4))  # Base
         show_system(ax, A1)         # First joint
         show_system(ax, A1 @ A2)    # Second joint
-        show_system(ax, A1 @ A2 @ A3)  # End effector
+        show_system(ax, A1 @ A2 @ A3)  # Third joint
         
         # Plot joint points
         ax.scatter3D(x_points, y_points, z_points, color='red', s=100)
