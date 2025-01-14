@@ -3,14 +3,13 @@ import numpy as np
 import numpy as np
 import matplotlib.pyplot as plt
 
-
-def load_h(txt_file_path):
-    with open(txt_file_path, 'r') as f:
-        l = [[float(num) for num in line.split(',')] for line in f]    
-    return np.array(l)
+from common_func import (
+    load_h
+)
 
 
 A_camera = cv2.imread('vaja4/material/camera1.jpg')
+A_camera = cv2.cvtColor(A_camera, cv2.COLOR_BGR2RGB)
 h_camera = load_h("vaja4/material/camera1.txt")
 
 h_camera_inv = np.linalg.inv(h_camera)
