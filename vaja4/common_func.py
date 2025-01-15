@@ -53,7 +53,8 @@ def get_color_mask(image, color):
         mask1 = (image_hsv[:,:,0] < 10) & (image_hsv[:,:,1] > 100)
         mask2 = (image_hsv[:,:,0] > 160) & (image_hsv[:,:,1] > 100)
         mask = mask1 | mask2
-    
+    elif color == 'orange':
+        mask = (image_hsv[:,:,0] >= 10) & (image_hsv[:,:,0] < 25) & (image_hsv[:,:,1] > 100)
     elif color == 'green':
         mask = (image_hsv[:,:,0] > 35) & (image_hsv[:,:,0] < 85) & (image_hsv[:,:,1] > 100)
     

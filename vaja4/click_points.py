@@ -38,6 +38,7 @@ clicked_homogeneous[:, 2] = 1  # Set last column to ones
 
 # Transform from Camera to World using h_camera_inv
 world_points_homogeneous = (h_camera_inv @ clicked_homogeneous.T).T
+print(h_camera_inv)
 world_points = world_points_homogeneous[:, :2] / world_points_homogeneous[:, 2].reshape(-1, 1)
 
 # Plot points
