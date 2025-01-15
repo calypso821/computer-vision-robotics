@@ -17,7 +17,7 @@ I_camera2 = cv2.cvtColor(I_camera2, cv2.COLOR_BGR2RGB)
 
 # Hue [0, 359] (circle) opencv -> [0, 179] 8bit optimization
 # Low saturation - white colors
-blue_comp_mask = get_color_mask(I_camera2, 95, 120, 150)
+blue_comp_mask = get_color_mask(I_camera2, 'blue')
 
 # First close to fill gaps, then open to remove noise
 blue_comp_clean = clean_binary_mask(blue_comp_mask, 3)
