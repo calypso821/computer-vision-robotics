@@ -47,7 +47,7 @@ Exploring computer vision fundamentals and their integration with robotic system
 - Real-time tracking and control
 - Automated stacking algorithms
 
-<p align="center">
+<p>
     <img src="resources/tower.gif" height="500"/>
     <img src="resources/sort.gif" height="500"/>
 </p>
