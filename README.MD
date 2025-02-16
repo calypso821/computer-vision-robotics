@@ -12,7 +12,7 @@ Exploring computer vision fundamentals and their integration with robotic system
 - Region analysis and morphological operations
 - Real-time video processing
 
-<img src="resources/hsv_mask.png" width="800"/>
+<img src="resources/hsv_mask.png" width="900"/>
 
 ## Advanced Image Processing
 - Convolution and filtering implementations 
@@ -22,9 +22,9 @@ Exploring computer vision fundamentals and their integration with robotic system
 - Circle detection and tracking
 - Real-time object detection
 
-<img src="resources/hough_lines.png" width="800"/>
-<img src="resources/circle_detection.png" width="800"/>
-<img src="resources/circle_detection3d.png" width="400"/>
+<img src="resources/hough_lines.png" width="900"/>
+<img src="resources/circle_detection.png" width="900"/>
+<img src="resources/circle_detection3d.png" width="450"/>
 
 ## Robotics Control
 - Direct manipulator control
@@ -35,8 +35,8 @@ Exploring computer vision fundamentals and their integration with robotic system
 - Pick and place operations
 - Coordinated movement control
 
-<img src="resources/robot_arm.png" width="400"/>
-<img src="resources/robot_workspace.png" width="400"/>
+<img src="resources/robot_arm.png" width="450"/>
+<img src="resources/robot_workspace.png" width="450"/>
 
 ## Robotics-Vision Integration
 - Homographic transformations
